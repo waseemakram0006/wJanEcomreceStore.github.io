@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    padding: 7%;
+    margin: 20px 0;
+    position: relative;
+    height: 100vh;
+
+}
+
+.aboutMain {
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+
+}
+
+.aboutleftDiv {
+   
+    width: 40%;
+}
+
+.aboutRightDiv {
+    width: 50%;
+
+}
+
+.aboutRightDiv a {
+    width: 100%;
+    background-color: #56AEFF;
+    color: white;
+    text-decoration: none;
+    padding: 3% 10%;
+    margin: 40px 0;
+
+
+}
+.aboutRightDiv a:hover{
+    background-color: #3773ab;
+    transition: all .6s ease;
+}
+
+.aboutRightDiv p {
+    margin: 40px 0;
+
+}
+
+.uperCircle {
+    height: 350px;
+    width: 350px;
+    background-image: url('/images/about.jpg');
+    background-position: center;
+    background-size: cover;
+    z-index: -20;
+    border-radius: 50%;
+    position: absolute;
+    top: 146px;
+    left: 71px;
+
+}
+
+.bottomCircle {
+    position: absolute;
+    left: 106px;
+    z-index: -50;
+    height: 350px;
+    width: 350px;
+    background-color: #56AEFF;
+    border-radius: 50%;
+    top: 91px;
+}
+.activeClass {
+    color: #ff7b56;
+    text-decoration: underline;
+  }

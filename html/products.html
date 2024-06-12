@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="/style/mainPage.css">
+    <link rel="stylesheet" href="/style/sideBar.css">
+    <!-- FontAwsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+    <!-- Title -->
+    <title>Wjan Products</title>
+</head>
+
+<body>
+    <div id="page">
+        <!-- Side Bar -->
+        <div class="sidebar" id="sidebarId">
+            <div class="sideBarContent" id="sideBarContent">
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, et maiores laboriosam
+                    doloremque adipisci hic sapiente cumque nemo! Neque quod blanditiis sapiente? Delectus beatae modi
+                    eius! Cupiditate porro quo consequatur?
+                </p>
+            </div>
+
+        </div>
+        <!-- Side Bar -->
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="nav-part1">
+                    <div class="logoDiv">
+                        <a href="#"><img src="/images/logo.png" alt="Logo"></a>
+                    </div>
+                    <ul class="varela-round-regular">
+                        <li><a href="/html/index.html" id="homeId" >Home</a></li>
+                        <li><a href="/html/products.html" id="product">Products</a></li>
+                        <li><a href="/html/about.html" id="about">About</a></li>
+                        <li><a href="/html/contact.html" id="contect">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="nav-part2">
+
+                    <div class="searchDiv">
+
+                        <div class="searchIcon">
+                            <i class="fa-solid fa-magnifying-glass fa-lg " style="color: #fff;"></i>
+                        </div>
+                        <input type="text" id="searchBar" placeholder="Search here">
+                    </div>
+
+                    <a href="#" id="carIcon"><i class="fa-solid fa-cart-shopping fa-xl" style="color: #fff;"></i></a>
+
+
+                </div>
+
+            </nav>
+        </header>
+        <!-- Header End-->
+        <!-- Lower Section -->
+        <section>
+            <div class="lowerSection">
+                <h2 class="varela-round-regular">Our Producs</h2>
+                <div class="loder" id="loder">
+                    <p class="varela-round-regular">Loading ...</p>
+                </div>
+                <div id="productContainer" class="mainGrid">
+
+                </div>
+            </div>
+        </section>
+        <!-- Lower Section End -->
+        <footer>
+            <p>
+                &COPY; Design And Developed By WJAN Team.
+            </p>
+        </footer>
+    </div>
+    <script src="/js/sideBar.js"></script>
+    <script src="/js/paginations.js"></script>
+    <script src="/node_modules/axios/dist/axios.min.js"></script>
+    <script src="/js/oneJs.js"></script>
+</body>
+
+</html>
